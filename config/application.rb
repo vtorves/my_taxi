@@ -42,6 +42,10 @@ module Pah1
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
+    # For Foundation 5
+    config.assets.precompile += %w( vendor/modernizr )
+
     config.i18n.enforce_available_locales = true
     config.i18n.default_locale = :"pt-BR"
     config.i18n.locale = :"pt-BR"

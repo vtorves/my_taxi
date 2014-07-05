@@ -1,4 +1,10 @@
 GIT
+  remote: git://github.com/RailsApps/rails_layout.git
+  revision: b4431227289e4dd4b377bcecc5cc0e40ba214209
+  specs:
+    rails_layout (1.0.20)
+
+GIT
   remote: git://github.com/bmabey/email-spec.git
   revision: 8f862c22413fe4cb220a8dac6b9206b8b46d1148
   ref: 8f862c22413fe4cb220a8dac6b9206b8b46d1148
@@ -102,6 +108,9 @@ GEM
     foreman (0.63.0)
       dotenv (>= 0.7)
       thor (>= 0.13.6)
+    foundation-rails (5.3.0.1)
+      railties (>= 3.1.0)
+      sass (>= 3.2.0)
     hike (1.2.3)
     jbuilder (2.0.4)
       activesupport (>= 3.0.0)
@@ -266,6 +275,7 @@ DEPENDENCIES
   factory_girl_rails (= 4.4.1)
   flutie (= 2.0.0)
   foreman (= 0.63.0)
+  foundation-rails
   i18n!
   jbuilder (= 2.0.4)
   jquery-rails (= 3.1.0)
@@ -282,6 +292,7 @@ DEPENDENCIES
   rack-timeout!
   rails (= 4.1.1)
   rails_12factor (= 0.0.2)
+  rails_layout!
   rollbar (= 0.12.17)
   rspec-rails (= 3.0.0.rc1)
   sass-rails (= 4.0.3)

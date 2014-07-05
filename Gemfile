@@ -22,6 +22,8 @@ gem 'bourbon',                '3.1.8'
 gem 'simple_form',            '3.1.0.rc1'
 gem 'flutie',                 '2.0.0'
 gem 'newrelic_rpm',           '3.8.0.218'
+gem 'foundation-rails'
+
 
 group :production do
   gem 'rails_12factor',       '0.0.2'
@@ -38,6 +40,8 @@ group :development do
   gem 'letter_opener',        '1.2.0'
   gem 'bullet',               '4.8.0'
   gem 'quiet_assets',         '1.0.2'
+  gem 'rails_layout', github: 'RailsApps/rails_layout'
+  gem  'devise'
 end
 
 group :test do
