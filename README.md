@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # pah1
 
 This project is a [Rails](http://rubyonrails.org/) application used to SOMETHING.
@@ -76,3 +77,9 @@ First, check of your project has the correct configuration from [jumpup-heroku](
 ![HE:labs](http://helabs.com.br/images/logo.png)
 
 This app was created and is maintained by [HE:labs](https://github.com/Helabs).
+=======
+my_taxi
+=======
+
+management of taxi
+>>>>>>> dab250cb3b7b0dfd0384edb8eac518d8efe2051c
